@@ -1,0 +1,4 @@
+FROM registry.gitlab.com/bootc-org/fedora-bootc/base-images-experimental/fedora-bootc-full:rawhide
+
+RUN dnf install -y python-torch-rocm-gfx8
+
